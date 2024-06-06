@@ -1,8 +1,7 @@
-// main.js
+
 import { fetchImages } from './js/pixabay-api.js';
 import { renderImages, clearGallery } from './js/render-function.js';
-import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+
 
 document.querySelector('#search-form').addEventListener('submit', onSearch);
 
